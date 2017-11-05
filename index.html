@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Tea Cozy</title>
-    <link href="./css.styles.css" rel="stylesheet" type:"text/css">
+    <link href="./css/styles.css" rel="stylesheet" type:"text/css">
   </head>
   <body>
 
 <!--header-->
 
     <header class="flex-container">
-      <img src="images/img-tea-cozy-logo.png" alt="logo">
+      <div class="logo">
+        <img src="images/img-tea-cozy-logo.png" alt="logo" height="50px">
+      </div>
       <nav>
         <span><a href="#">Mission</a></span>
         <span><a href="#">Featured Tea</a></span>
@@ -21,15 +23,19 @@
 <!--main content-->
 
     <div class="main">
-      <div class="mission">
-        <h2>Our Mission</h2>
-        <h4>Handpicked, Artisanlly Curated, Free Range, Sustainable, Small Batch, Faire Trade, Organic Tea</h4>
+      <div id="mission" class="flex-container">
+        <div class="content">
+          <h2>Our Mission</h2>
+          <h4>Handpicked, Artisanlly Curated, Free Range, Sustainable, Small Batch, Faire Trade, Organic Tea</h4>
+        </div>
       </div>
 
       <div class="month">
+
         <h2>Tea of the Month</h2>
         <h4>What's Steeping at the Tea Cozy?</h4>
 
+       <div class="flex-container">
         <div class="item">
           <img src="images/img-berryblitz.jpg" alt="Fall Berry Blitz Tea" width="300px" heigth="200px">
           <span>Fall Berry Blitz Tea</span>
@@ -55,31 +61,40 @@
           <span>Bedford Bizarre Tea</span>
         </div>
 
+       </div>
       </div>
 
-      <div class="locations">
+
+
+      <div id="background-image-locations">
 
         <h2>Locations</h2>
 
         <div class="flex-container locations">
+
           <h3>Downtown</h3>
           <p>384 West 4th St</p>
           <p>Suite 108</p>
           <p>Portland, Maine</p>
+
         </div>
 
         <div class="flex-container locations">
+
           <h3>East Bayside</h3>
           <p>3433 Phisherman's Avenue</p>
           <p>(Northwest Corner)</p>
           <p>Portland, Maine</p>
+
         </div>
 
         <div class="flex-container locations">
+
           <h3>Oakdale</h3>
           <p>515 Crescent Avenue</p>
           <p>Second Floor</p>
           <p>Portland, Maine</p>
+
         </div>
 
       </div>
@@ -88,14 +103,14 @@
 
       <div class="contact">
         <h2>The Tea Cozy</h2>
-        <p>contact@theteacozy.com</p>
-        <p>917-555-8904<p>
+        <h5>contact@theteacozy.com</h5>
+        <h5>917-555-8904</h5>
       </div>
 
 <!--footer-->
 
     <footer>
-      <span class="copyright">copyright The Tea Cozy 2017</span>
+      <h5>copyright The Tea Cozy 2017</h5>
     </footer>
 
     </div>
