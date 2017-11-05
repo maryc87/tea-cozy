@@ -8,6 +8,14 @@ body {
   margin: 0;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*header*/
+
 header {
   display: flex;
   align-items: center;
@@ -44,6 +52,7 @@ a {
   color: seashell;
 }
 
+/*main content*/
 
 .main {
   padding-top: 120px;
@@ -69,20 +78,9 @@ h2.content {
   font-weight: 900;
 }
 
-
-/*.mission h2, h4{
-  background: black;
-}*/
-
 .item.month{
   display: flex;
   justify-content: space-around;
-}
-
-.flex-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 .month {
@@ -107,7 +105,6 @@ h2.content {
 #background-image-locations {
   background-image: url("../images/img-locations-background.jpg");
   margin: auto;
-  
   width: 1200px;
   height: 500px;
   align-items: center;
@@ -115,20 +112,23 @@ h2.content {
 }
 
 .locations {
-    opacity: 1.0;
-    padding: 10px;
-    margin: 5px 20px;
-    background-color: black;
-    width: 300px;
-    flex-basis: 280px;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  width: 300px;
+  flex-basis: 280px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact {
   height: 200px;
 }
+
+/*footer*/
+
 
 footer {
   text-align: left;
